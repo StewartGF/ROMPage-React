@@ -5,7 +5,7 @@ Este proyecto lo hice con el objetivo de aprender React.
 Usé principalmente llamados a la API de ROMExchange con el fin de poder mostrarlos mediante el uso de hooks de react.
 
 ## Preview
-[[https://raw.githubusercontent.com/StewartGF/ROMPage-React/master/ROMPage-React.png]]
+![alt text](https://raw.githubusercontent.com/StewartGF/ROMPage-React/master/ROMPage-React.png)
 
 ## Versiones usadas
 * React 16.11
