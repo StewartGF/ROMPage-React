@@ -4,7 +4,16 @@ import React from "react";
 function Item({ data }) {
   //paso data a una variable dentro del componente
   const item = data;
-
+  console.log(data);
+  const borderStyle = {
+    border: "1.5px solid rgb(161,21,80)"
+  };
+  const fontCard = {
+    color: "rgb(161,21,80)"
+  };
+  const fontActualizacion = {
+    color: "rgb(39,41,1)"
+  };
   if (item.length > 1) {
     return (
       <div className="card-group">
@@ -18,8 +27,8 @@ function Item({ data }) {
                 .replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " Zeny";
             return (
               <div key={index} className="col-sm-6 col-lg-3 py-2">
-                <div className="card border-info mb3">
-                  <div className="card-body text-info">
+                <div className="card mb3" style={borderStyle}>
+                  <div className="card-body" style={fontCard}>
                     {/* debido al map no necesito el index porque hara la acción N veces hasta el fin del largo del arreglo */}
                     <h5 className="card-title">{detalle.name}</h5>
                     <p className="card-text text-dark">
@@ -27,7 +36,7 @@ function Item({ data }) {
                     </p>
                   </div>
                   <div className="card-footer">
-                    <small className="text-warning">
+                    <small style={fontActualizacion}>
                       Última Actualización :{" "}
                       {hora.toLocaleString().slice(0, -3)}
                     </small>
@@ -57,8 +66,8 @@ function Item({ data }) {
                 className="col-sm-6 col-lg-3 py-2"
                 style={{ minWidth: "100%" }}
               >
-                <div className="card border-info mb3">
-                  <div className="card-body text-info">
+                <div className="card mb3" style={borderStyle}>
+                  <div className="card-body" style={fontCard}>
                     {/* debido al map no necesito el index porque hara la acción N veces hasta el fin del largo del arreglo */}
                     <h5 className="card-title">{detalle.name}</h5>
                     <p className="card-text text-dark">
@@ -66,7 +75,7 @@ function Item({ data }) {
                     </p>
                   </div>
                   <div className="card-footer">
-                    <small className="text-warning">
+                    <small style={fontActualizacion}>
                       Última Actualización :{" "}
                       {hora.toLocaleString().slice(0, -3)}
                     </small>

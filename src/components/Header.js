@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
 function Header({ datosConsulta }) {
+  const bgStyle = {
+    border: "1px solid rgb(30,30,46)",
+    background: "rgb(30,30,46)"
+  };
   /***
    * State del componente
    * searchQ : state
@@ -24,9 +28,16 @@ function Header({ datosConsulta }) {
     datosConsulta(Busqueda);
   };
   return (
-    <div className="d-flex justify-content-center">
-      <nav className="navbar navbar-light bg-light">
-        <form className="form-inline" onSubmit={consultarAPI}>
+    <div className="d-flex justify-content-center" style={bgStyle}>
+      <nav className="navbar " style={bgStyle}>
+        <form
+          className="form-inline"
+          onSubmit={consultarAPI}
+          style={{
+            border: "1px solid rgb(30,30,46)",
+            background: "rgb(30,30,46)"
+          }}
+        >
           <input
             className="form-control mr-sm-2"
             type="search"

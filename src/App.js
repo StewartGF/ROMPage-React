@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Item from "./components/Item";
-import Error from "./components/Error";
+import Loading from "./components/Loading";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -10,10 +10,10 @@ function App() {
   const [error, setError] = useState(false);
   //let arrayData = [];
   useEffect(() => {
-    if (search === "") {
-      setError(true);
-      return;
-    }
+    // if (search === "") {
+    setError(true);
+    //  return;
+    //}
 
     const consultaAPI = async () => {
       let url = `https://www.romexchange.com/api?item=${search}&exact=false&sort_server=global&slim=true`;
@@ -49,14 +49,12 @@ function App() {
   };
 
   //montar y desmontar el container con items
-
   let componente;
   if (error) {
     //hay error, desmontar container
-    componente = <Error mensaje="cargando..."></Error>;
+    componente = <Loading mensaje="Cargando..."></Loading>;
   } else if (resultado.length > 0) {
     //montar container
-
     componente = <Item data={resultado}></Item>;
   }
 
