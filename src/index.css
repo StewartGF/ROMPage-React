@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.botonBuscar {
+  background: rgb(161, 21, 80);
+  color: white;
+  border-color: rgb(161, 21, 80);
+}
+.hovered:hover {
+  background: rgb(211, 30, 105);
+  color: white;
+  border-color: rgb(161, 21, 80);
+  transform: scale(1.04);
+}
+
+.hovered:active {
+  transition: 0.5s ease, transform 0.2s ease;
+  border-color: rgb(161, 21, 80);
+  transform: scale(0.93);
+}
+
+.hovered:focus {
+  outline: none !important;
+  box-shadow: none;
+}

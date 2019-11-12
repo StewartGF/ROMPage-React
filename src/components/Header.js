@@ -46,7 +46,10 @@ function Header({ datosConsulta }) {
             aria-label="Buscar"
             onChange={handleChange}
           />
-          <button className="btn btn-outline-info my-2 my-sm-0" type="submit">
+          <button
+            className="btn botonBuscar hovered  my-2 my-sm-0"
+            type="submit"
+          >
             Buscar
           </button>
         </form>

@@ -16,7 +16,7 @@ function App() {
     //}
 
     const consultaAPI = async () => {
-      let url = `https://www.romexchange.com/api?item=${search}&exact=false&sort_server=global&slim=true`;
+      let url = `https://www.romexchange.com/api?item=${search}&exact=false&sort_server=global`;
       const respuesta = await fetch(url);
       const data = await respuesta.json();
       // let dataNombre = data.map(data => {
