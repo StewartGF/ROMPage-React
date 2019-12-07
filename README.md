@@ -2,6 +2,10 @@
 
 Este proyecto lo hice con el objetivo de aprender React.
 
+## Deploy
+
+Revisa el contenido de este proyecto en esta url : https://StewartGF.github.io/ROMPage-React
+
 ## Contenido
 
 Usé principalmente llamados a la API de ROMExchange con el fin de poder mostrarlos mediante el uso de hooks de react.

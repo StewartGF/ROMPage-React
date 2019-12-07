@@ -1,6 +1,5 @@
 import React from "react";
 import Grafico from "./Grafico";
-import { blockStatement } from "@babel/types";
 
 // envolví data en {} para destructurar el prop que envié desde APP
 function Item({ data }) {
@@ -19,7 +18,7 @@ function Item({ data }) {
     color: "rgb(39,41,1)",
     fontSize: "11px"
   };
-  if (item.length > 1) {
+  if (item.length > 2) {
     return (
       <div className="card-group">
         <div className="row">
@@ -84,7 +83,7 @@ function Item({ data }) {
             return (
               <div
                 key={index}
-                className="col-sm-6 col-lg-3 py-2"
+                className="col-sm-4 col-lg-4 py-2"
                 style={{ minWidth: "100%" }}
               >
                 <div className="card mb3" style={borderStyle}>
