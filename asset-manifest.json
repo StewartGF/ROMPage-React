@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ROMPage-React/static/css/main.67b955ec.chunk.css",
+    "main.js": "/ROMPage-React/static/js/main.81ffc2fe.chunk.js",
+    "main.js.map": "/ROMPage-React/static/js/main.81ffc2fe.chunk.js.map",
+    "runtime-main.js": "/ROMPage-React/static/js/runtime-main.35a8698c.js",
+    "runtime-main.js.map": "/ROMPage-React/static/js/runtime-main.35a8698c.js.map",
+    "static/js/2.daa4f548.chunk.js": "/ROMPage-React/static/js/2.daa4f548.chunk.js",
+    "static/js/2.daa4f548.chunk.js.map": "/ROMPage-React/static/js/2.daa4f548.chunk.js.map",
+    "index.html": "/ROMPage-React/index.html",
+    "precache-manifest.1a0239e4ae2f81c20abfe8278e2a142b.js": "/ROMPage-React/precache-manifest.1a0239e4ae2f81c20abfe8278e2a142b.js",
+    "service-worker.js": "/ROMPage-React/service-worker.js",
+    "static/css/main.67b955ec.chunk.css.map": "/ROMPage-React/static/css/main.67b955ec.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35a8698c.js",
+    "static/js/2.daa4f548.chunk.js",
+    "static/css/main.67b955ec.chunk.css",
+    "static/js/main.81ffc2fe.chunk.js"
+  ]
+}
