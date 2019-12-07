@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ROMPage-React/static/css/main.67b955ec.chunk.css",
-    "main.js": "/ROMPage-React/static/js/main.8ee361fc.chunk.js",
-    "main.js.map": "/ROMPage-React/static/js/main.8ee361fc.chunk.js.map",
+    "main.js": "/ROMPage-React/static/js/main.87fda202.chunk.js",
+    "main.js.map": "/ROMPage-React/static/js/main.87fda202.chunk.js.map",
     "runtime-main.js": "/ROMPage-React/static/js/runtime-main.35a8698c.js",
     "runtime-main.js.map": "/ROMPage-React/static/js/runtime-main.35a8698c.js.map",
     "static/js/2.daa4f548.chunk.js": "/ROMPage-React/static/js/2.daa4f548.chunk.js",
     "static/js/2.daa4f548.chunk.js.map": "/ROMPage-React/static/js/2.daa4f548.chunk.js.map",
     "index.html": "/ROMPage-React/index.html",
-    "precache-manifest.d4c33096224aac429b086e2c157d1c35.js": "/ROMPage-React/precache-manifest.d4c33096224aac429b086e2c157d1c35.js",
+    "precache-manifest.04f31cbca8515cf044b4fbd32af63a3b.js": "/ROMPage-React/precache-manifest.04f31cbca8515cf044b4fbd32af63a3b.js",
     "service-worker.js": "/ROMPage-React/service-worker.js",
     "static/css/main.67b955ec.chunk.css.map": "/ROMPage-React/static/css/main.67b955ec.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.35a8698c.js",
     "static/js/2.daa4f548.chunk.js",
     "static/css/main.67b955ec.chunk.css",
-    "static/js/main.8ee361fc.chunk.js"
+    "static/js/main.87fda202.chunk.js"
   ]
 }
