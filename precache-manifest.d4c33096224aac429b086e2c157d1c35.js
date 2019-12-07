@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ef35be8bfc09f8bf67ef1abe116c721",
+    "revision": "77ea4cbba6de56f6b250667cbb85fc84",
     "url": "/ROMPage-React/index.html"
   },
   {
-    "revision": "f7ed7fd2543387f1aeef",
+    "revision": "4eb17a53eb2a1aa34772",
     "url": "/ROMPage-React/static/css/main.67b955ec.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ROMPage-React/static/js/2.daa4f548.chunk.js"
   },
   {
-    "revision": "f7ed7fd2543387f1aeef",
-    "url": "/ROMPage-React/static/js/main.81ffc2fe.chunk.js"
+    "revision": "4eb17a53eb2a1aa34772",
+    "url": "/ROMPage-React/static/js/main.8ee361fc.chunk.js"
   },
   {
     "revision": "c0c0d85edce9ff57a279",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ROMPage-React/precache-manifest.1a0239e4ae2f81c20abfe8278e2a142b.js"
+  "/ROMPage-React/precache-manifest.d4c33096224aac429b086e2c157d1c35.js"
 );
 
 self.addEventListener('message', (event) => {
