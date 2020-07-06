@@ -16,7 +16,7 @@ function App() {
     //}
 
     const consultaAPI = async () => {
-      let url = `https://cors-anywhere.herokuapp.com/https://www.romexchange.com/api?item=${search}&exact=false&sort_server=global`;
+      let url = `https://stewartgf-cors-anywhere.herokuapp.com/https://www.romexchange.com/api?item=${search}&exact=false&sort_server=global`;
       const respuesta = await fetch(url);
       const data = await respuesta.json();
       // let dataNombre = data.map(data => {
@@ -44,7 +44,7 @@ function App() {
     consultaAPI();
   }, [search]);
 
-  const datosConsulta = datos => {
+  const datosConsulta = (datos) => {
     setSearch(datos.texto);
   };
 

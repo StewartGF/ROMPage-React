@@ -5,14 +5,14 @@ function Loading({ mensaje }) {
     { imagen: "imagenes/marin.gif" },
     { imagen: "imagenes/poring.gif" },
     { imagen: "imagenes/poporing.gif" },
-    { imagen: "imagenes/angeling.gif" }
+    { imagen: "imagenes/angeling.gif" },
   ];
   //modificar el orden del array para mostrar las imagenes de distinta forma cada vez
   porings.sort(() => 0.5 - Math.random());
   return (
     <div className="container" style={{ zIndex: 3 }}>
       <div className="text-center">
-        <div>{mensaje}</div>
+        <div style={{ color: "white" }}>{mensaje}</div>
         {porings.map((poring, index) => {
           return (
             <img

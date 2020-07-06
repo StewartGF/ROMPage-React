@@ -10,6 +10,22 @@ Revisa el contenido de este proyecto en esta url : https://StewartGF.github.io/R
 
 Usé principalmente llamados a la API de ROMExchange con el fin de poder mostrarlos mediante el uso de hooks de react.
 
+## Actualización Julio, 2020 🧐
+
+Se corrigió el error de CORS usando un proxy en Heroku -> https://stewartgf-cors-anywhere.herokuapp.com/
+
+- créditos @https://github.com/Rob--W/cors-anywhere/
+
+* Pasos:
+
+```
+git clone https://github.com/Rob--W/cors-anywhere.git
+cd cors-anywhere/
+npm install
+heroku create
+git push heroku master
+```
+
 ## Preview
 
 - App (12,Nov.2019 - Chart.js)
